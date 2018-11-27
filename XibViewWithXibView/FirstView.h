@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  FirstView.h
 //  XibViewWithXibView
 //
 //  Created by zsm on 2018/11/25.
@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "FirstView.h"
-@interface ViewController : UIViewController
-@property (weak, nonatomic) IBOutlet FirstView *showView;
 
+NS_ASSUME_NONNULL_BEGIN
+
+@interface FirstView : UIView
+@property (weak, nonatomic) IBOutlet UIView *blueView;
 
 @end
 
+NS_ASSUME_NONNULL_END
