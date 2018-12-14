@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SuperXibView.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FirstView : UIView
+@interface FirstView : SuperXibView
 @property (weak, nonatomic) IBOutlet UIView *blueView;
+@property (weak, nonatomic) IBOutlet UILabel *lab;
 
 @end
 

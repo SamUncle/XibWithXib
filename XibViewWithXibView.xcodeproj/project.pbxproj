@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6B13213421C33A130096E919 /* SuperXibView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B13213321C33A130096E919 /* SuperXibView.m */; };
 		6B1AAF1421ACD6B0005FE83B /* HeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1AAF1321ACD6B0005FE83B /* HeadView.m */; };
 		6B1AAF1621ACD729005FE83B /* HeadView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B1AAF1521ACD729005FE83B /* HeadView.xib */; };
 		6B1C794D21AAA60E00E35F86 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B1C794C21AAA60E00E35F86 /* AppDelegate.m */; };
@@ -39,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6B13213221C33A130096E919 /* SuperXibView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SuperXibView.h; sourceTree = "<group>"; };
+		6B13213321C33A130096E919 /* SuperXibView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SuperXibView.m; sourceTree = "<group>"; };
 		6B1AAF1221ACD6B0005FE83B /* HeadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadView.h; sourceTree = "<group>"; };
 		6B1AAF1321ACD6B0005FE83B /* HeadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadView.m; sourceTree = "<group>"; };
 		6B1AAF1521ACD729005FE83B /* HeadView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeadView.xib; sourceTree = "<group>"; };
@@ -117,6 +120,8 @@
 				6B1C794C21AAA60E00E35F86 /* AppDelegate.m */,
 				6B1C794E21AAA60E00E35F86 /* ViewController.h */,
 				6B1C794F21AAA60E00E35F86 /* ViewController.m */,
+				6B13213221C33A130096E919 /* SuperXibView.h */,
+				6B13213321C33A130096E919 /* SuperXibView.m */,
 				6B1C795121AAA60E00E35F86 /* Main.storyboard */,
 				6B1AAF1221ACD6B0005FE83B /* HeadView.h */,
 				6B1AAF1321ACD6B0005FE83B /* HeadView.m */,
@@ -282,6 +287,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B13213421C33A130096E919 /* SuperXibView.m in Sources */,
 				6B1C795021AAA60E00E35F86 /* ViewController.m in Sources */,
 				6B1AAF1421ACD6B0005FE83B /* HeadView.m in Sources */,
 				6B1C797F21AAA66400E35F86 /* FirstView.m in Sources */,

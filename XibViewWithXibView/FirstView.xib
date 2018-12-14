@@ -12,29 +12,38 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
         <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FirstView">
-            <rect key="frame" x="0.0" y="0.0" width="493" height="201"/>
+            <rect key="frame" x="0.0" y="0.0" width="403" height="139"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="tZb-sF-RTW">
-                    <rect key="frame" x="183.5" y="47" width="126" height="107"/>
+                    <rect key="frame" x="138.5" y="16" width="126" height="107"/>
                     <color key="backgroundColor" red="0.25882352939999997" green="0.43921568630000002" blue="0.93333333330000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="107" id="XCU-QZ-IME"/>
                         <constraint firstAttribute="width" constant="126" id="wcv-aF-RnI"/>
                     </constraints>
                 </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="测试位置" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hdh-op-IGY">
+                    <rect key="frame" x="53.5" y="59" width="70" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
-            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
             <constraints>
                 <constraint firstItem="tZb-sF-RTW" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="NlY-LS-hlU"/>
+                <constraint firstItem="tZb-sF-RTW" firstAttribute="leading" secondItem="hdh-op-IGY" secondAttribute="trailing" constant="15" id="a4b-Bp-7Ym"/>
                 <constraint firstItem="tZb-sF-RTW" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="bGK-s5-bdJ"/>
+                <constraint firstItem="hdh-op-IGY" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="v8q-8E-hGh"/>
             </constraints>
             <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
             <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
             <connections>
                 <outlet property="blueView" destination="tZb-sF-RTW" id="4EY-cV-VRG"/>
+                <outlet property="lab" destination="hdh-op-IGY" id="olv-EE-BBZ"/>
             </connections>
-            <point key="canvasLocation" x="140" y="-132.68365817091455"/>
+            <point key="canvasLocation" x="68" y="-160.56971514242881"/>
         </view>
     </objects>
 </document>
